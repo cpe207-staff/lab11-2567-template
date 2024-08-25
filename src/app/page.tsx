@@ -6,7 +6,7 @@ export default function RegisterForm() {
   const [fnameError, setFnameError] = useState(false);
   const [lname, setLname] = useState("");
   const [plan, setPlan] = useState("");
-  const [gender, setGender] = useState("male");
+  const [gender, setGender] = useState("");
   const [buyBottle, setBuyBottle] = useState(false);
   const [buyShoes, setBuyShoes] = useState(false);
   const [buyCap, setBuyCap] = useState(false);
